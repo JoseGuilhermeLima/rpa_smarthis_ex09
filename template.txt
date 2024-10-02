@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2; /* Fundo claro para melhor contraste */
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto; /* Espaçamento superior e inferior */
+            border-radius: 15px; /* Bordas arredondadas no contêiner */
+            overflow: hidden;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra aumentada */
+            background-color: #fff; /* Fundo branco para o contêiner */
+        }
+        .header {
+            background-color: #19b894;
+            padding: 10px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #000000;
+            border-radius: 15px 15px 0 0; /* Bordas arredondadas no cabeçalho */
+        }
+        .body {
+            padding: 20px 20px 10px 20px;
+            color: #555;
+            line-height: 1.6;
+        }
+        .footer {
+            background-color: #19b894; /* Ajuste da cor de fundo para combinar */
+            padding: 10px;
+            text-align: center;
+            /* border: 3px solid #ffffff; Ajuste da cor da borda */
+            border-radius: 0 0 15px 15px; /* Bordas arredondadas no rodapé */
+        }
+        .footer img {
+            width: 110px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Notificação</div>
+        <div class="body">
+            @texto
+            <p><em><strong>RPA</strong></em>.</p>
+        </div>
+        <div class="footer">
+            <img src="https://files.openstartups.net/uploaded/startupLogos/609950a25345576134382bab/Smarthis%20-%20Logotipo.png" alt="Ícone" />
+        </div>
+    </div>
+</body>
+</html>
